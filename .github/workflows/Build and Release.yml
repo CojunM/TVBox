@@ -16,8 +16,8 @@ jobs:
        with:
          distribution: temurin
          java-version: "11"
-     - name: Set execution flag for gradlew
-       run: chmod +x ./gradlew
+     - name: Grant execute permission for gradlew
+       run: chmod +x gradlew
      - name: Build APK
        run: bash ./gradlew assembleDebug --stacktrace
      - name: Upload APK
