@@ -16,7 +16,7 @@ jobs:
        with:
          distribution: temurin
          java-version: "11"
-     - name: Grant execute permission for gradlew
+     
        # step：打包apk
      - name: Build with Gradle
         # 运行命令
